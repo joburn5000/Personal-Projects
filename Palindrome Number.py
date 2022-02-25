@@ -12,10 +12,7 @@ Completed: October 8, 2021
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         a = str(x)
-        print(a)
         for i in range(len(a)):
-            print(a[i])
-            print(a[-i-1])
             if a[i] != a[-i-1]:
                 return False
         return True
